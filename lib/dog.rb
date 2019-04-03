@@ -1,5 +1,5 @@
 class Dog
-  def initialize(*name)
+  def initialize(name, *breed)
     @name = name[0]
     if name.length == 1
       @breed = "Mutt"
